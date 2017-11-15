@@ -1,0 +1,34 @@
+Giselle Valdez
+Dennis Tenen
+
+1.In your own words, what is version (or source) control?
+Version/source control is the management of changing documents, programs, and various collections of information. It allows for the identification of changes and revisions, which allows the user to access previous versions of the data they have revised. For example, on Google Docs, version control is integrated within the system as the user can see what previous edits have been made and versions of their document. This practice models the historical process of creative process which allows for the documentation of various edits of a certain work, except version control is allowed through a category of processes and programs on a computer.  
+2.Explain the difference between Git and GitHub.
+Git is a version control history which allows for your to manage the versions of your code and edits. On the other hand, GitHub is the service which hosts these Git repositories.  
+3.In a few sentences, explain what a "commit" is?
+A commit is like a revision in that it is a change to a file. On Git, every time you save a file it creates a unique ID for this change which allows the user to understand and record which changes were made and how each affected the file. 
+ 
+4.What is a "branch" in Git terms?
+A branch is an independent line of development which removes one’s work from that of other users. Branches can be merged into one as long as they are located within the same repository. When creating the first commit, Git creates the first master branch due to default.
+ 
+5.What is a repository? Explain what happens when you "push" to and "pull" from a repository.
+A git repository contains a series of commits and acts as a storehouse of data. It is a place where the history of a specific work is stored and saved. Git push transfers your data to the remote location and server. Together with git pull, it allows users to collaborate on a work. Pull allows the data to be “pulled” from remote to local.
+ 
+6.What is involved in the "clone" operation?
+Once a work is already in a central repository, git cloning allowed for users to obtain a copy of the development. Cloning points to an existing repository and allows for one to create a clone or copy of that repository in a new directory. Cloning also creates a remote connection which points back to the original repository, which makes it simple to interact with central repository.  
+7.Find an example of Git being used for a peer production project. In several paragraphs answer the following: Who are they? What do they do? Who maintains the repository? What are the rules for contributing?
+
+When searching through various peer production projects on GitHub, I found a very interesting article by Quartz which lists various satirical projects:https://qz.com/677122/when-programmers-get-weird-the-funniest-code-projects-on-github/. I was particularly in a peer production program created by four Rice University students (Sam Shadwell, Dan Korn, Chris Brown, Cannon Lewis) at a Hack Conference— it is called “Trump Script” and its tagline is “Make Python Great Again. (http://samshadwell.me/TrumpScript/). The language utilized is Python and by filing code with the “TRUMP” command the program will run. (However, if a user tries to run TrumpScript on a Microsoft Windows computer the following error message will appear: “Windows?. ‘The big problem this country is being PC”) It is a language based on Donald Trump’s bombastic rhetoric and its mission satirically remarks that “as the undeniably best presidential candidate in the 2016 language, we found that the current field of programming languages does not include any that Trump’s glorious golden combover would approve of. Trump Script is our solution to this.” The Github’s link is: https://github.com/samshadwell/TrumpScript.
+
+Some of the many features of Trump Script are as follows: 1. No floating point numbers, only integers. America never does anything halfway. 2. All numbers must be greater than 1 million. The small stuff is inconsequential to us. 3. Error messages are mostly quotes directly taken from Trump himself. 4. All programs must end with “America is great.” 5.There are no import statements allowed. All code has to be home-grown and American made. 
+
+In terms of syntax, all of the arithmetic operators can be utilized as normal language. In addition, the words “is” and “are” are used to check for equality and assignment and “to use for assignment say something like ‘Trump is Great’ or ‘Democrats are dumb’: creating programs as demonstrated by a Motherboard article that, “I is Donald Trump it time to tell you a fact for every american there is 100000000 immigrants trust me they are , there over there ; plan against us if, I are fact? ; : say they want to take our guns ! America is great.”
+
+To contribute to this repository, one simply needs to clone the repository and add the Trump Script repository root directory to one’s system. After doing so, one can create a Trump Script file by following the syntax which is specified through their various rules and then execute the program. 
+
+These college students continue to maintain the repository which has become increasingly popular and has been repeatedly publicized in various news outlets. One of the creators, Sam, states that we he is “most proud [of is] that the language itself is actually parsed and complied in a way that sort of resembles in a way that sort of resembles how a real complier would compile a real language.” 
+
+What I found so interesting about this repository is the ability of the creators to express satire in programming—as I was not previously aware that this could be reflected in computational actions. While this repository is not necessarily academic or scholarly, it still speaks to a political undertone which allows programmers to critique current political leaders in America and gain popularity in a satirical repository critique. 
+
+ 
+8.Submit this worksheet (in .txt or .md plain text format) by filing a pull request to our Github repository. 
